@@ -4,6 +4,6 @@ app = Flask(__name__)
 def hello():
  num1= 2
  num2 = 2
- print = num1*num2
+ print ( num1*num2)
 if __name__ == '__main__':
  app.run(host='0.0.0.0', port=8080)
