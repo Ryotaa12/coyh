@@ -2,6 +2,8 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello():
- return '2+2'
+ num1= 2
+ num2 = 2
+ print = num1*num2
 if __name__ == '__main__':
  app.run(host='0.0.0.0', port=8080)
