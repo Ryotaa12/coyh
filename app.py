@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 @app.route('/')
-def hello():
+def product():
  num1= 2
  num2 = 2
  product =  num1*num2
